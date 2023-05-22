@@ -3,21 +3,6 @@
 
 ```shell
 data_process/
-├── download.py         # 下载视频脚本 
-├── detect_language.py  # 语言检测脚本
-├── get_clip_feature.py # 获取视频CLIP特征脚本 
-├── filter_data.py      # 根据CLIP计算过滤无关数据
-├── build_dataset.py    # 构建数据集脚本
-├── config.yaml         # 配置文件
-└── data               # 数据目录
-    ├── raw            # 下载的原始视频
-    ├── clips          # 剪辑过的视频
-    ├── features       # 视频特征    
-    ├── drop           # 被过滤的数据
-    └── dataset        # 构建的最终数据集
-
-
-data_process/
 ├── README.md         # 项目说明文档
 ├── requirements.txt  # 依赖包列表
 ├── LICENSE           # 许可证
